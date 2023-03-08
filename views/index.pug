@@ -1,12 +1,13 @@
 html
   head
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title= titulo
     link(rel="stylesheet", href="/css/style.css")
   
   body
     div.fundo1
       div.gridHeader
-        div(style={width: "50%", height: "100px"})
+        div#padTop
         div#pad1(style={width: "100%", height: "100px"})
          h1#medium <span style="color: #FFFFFF" padding: 100px>Violino Épico</span><br><span style="color:#D99D55">Academy</span>
          p <span style="color: #FFFFFF"> A <b>nova escola</b> do violino. Aqui você aprende a tocar músicas que realmente gosta e que te <b>motivam</b> a continuar</span><br><br><br>
@@ -36,8 +37,8 @@ html
       
     div#bgGrad1
       div.gridDouble
-        div 
-          img(src='/img/violino1.png')
+        div
+          img#imgFit(src='/img/violino1.png')
         div
          div#pad3
           h1#whiteReg A Base <span style="color:#D99D55">do Método</span>
@@ -79,7 +80,7 @@ html
      div#pad3
      div.gridDouble
       div.round 
-        <iframe width="400" height="227" src="https://www.youtube.com/embed/dZRP03vS4TY" title="1 MÊS TOCANDO VIOLINO - José Pereira - 55 anos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe id=imgFit width="400" height="227" src="https://www.youtube.com/embed/dZRP03vS4TY" title="1 MÊS TOCANDO VIOLINO - José Pereira - 55 anos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       div
         div#pad3
         h2#medium1 José Pereira
